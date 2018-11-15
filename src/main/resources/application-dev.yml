@@ -1,0 +1,7 @@
+server:
+  port: 8081
+  context-path: /dev
+girl:
+  age: 18
+  name: lisi
+  content: "name:${girl.name},age:${girl.age}"
